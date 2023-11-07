@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: #000;
+    transition: all ease-in-out .5s;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    place-content: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    background-color: #000;
+}
+.video{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+}
+.img2{
+    border-radius: 100px;
+}
+.logoeimagen{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner{
+    width: 700px;
+    height: 100px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+h1,h4{
+    font-size: 50px;
+    color: #fff;
+}
+h2{
+    display: flex;
+    align-items: end;
+    top: 300px;
+    gap: 15px;
+    position: relative;
+}
+span{
+    color: #fff;
+}
+.span1{
+    font-size: 120px;
+}
+.span2{
+    font-size: 140px;
+}
+.span3{
+    font-size: 160px;
+}
+.span4{
+    font-size: 180px;
+}
+.span5{
+    font-size: 200px;
+}
+.span6{
+    font-size: 220px;
+}
+.span7{
+    font-size: 220px;
+}
+.span8{
+    font-size: 200px;
+}
+.span9{
+    font-size: 180px;
+}
+.span10{
+    font-size: 160px;
+}
+.span11{
+    font-size: 140px;
+}
+.span12{
+    font-size: 120px;
+}
+.span1:hover{
+    transform: translateX(-50px) translateY(-50px) scale(1.3);
+}
+.span2:hover{
+    transform: translateX(-40px) translateY(-40px) scale(1.28);
+}
+.span3:hover{
+    transform: translateX(-30px) translateY(-30px) scale(1.26);
+}
+.span4:hover{
+    transform: translateX(-20px) translateY(-20px) scale(1.24);
+}
+.span5:hover{
+    transform: translateX(-10px) translateY(-10px) scale(1.22);
+}
+.span6:hover{
+    transform: scale(1.2);
+}
+.span7:hover{
+    transform: scale(1.2);
+}
+.span8:hover{
+    transform: translateX(10px) translateY(-10px) scale(1.22);
+}
+.span9:hover{
+    transform: translateX(20px) translateY(-20px) scale(1.24);
+}
+.span10:hover{
+    transform: translateX(30px) translateY(-30px) scale(1.26);
+}
+.span11:hover{
+    transform: translateX(40px) translateY(-40px) scale(1.28);
+}
+.span12:hover{
+    transform: translateX(50px) translateY(-50px) scale(1.3);
+}
+h3{
+    font-size: 80px;
+    margin: 0px 0px 0px 500px;
+}
+.titulo{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: carrus;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0px 10px 0px 0px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+main{
+    background-image: url(./fondo/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+.carru{
+    width: 500px;
+    margin: 50px;
+    border-radius: 100px;
+    border-style: solid;
+}
+@keyframes carrus{
+    0%{
+        box-shadow: 0px 10px 0px 0px rgb(0, 60, 255)
+    }
+    25%{
+        box-shadow: 0px 10px 0px 0px rgb(255, 0, 221)
+    }
+    50%{
+        box-shadow: 0px 10px 0px 0px rgb(0, 255, 76)
+    }
+    75%{
+        box-shadow: 0px 10px 0px 0px rgb(255, 251, 0)
+    }
+    100%{
+        box-shadow: 0px 10px 0px 0px rgb(253, 1, 1);
+    }
+}
+.carru:hover{
+    transform: scale(1.3);
+}
+.carrusell{
+    display: flex;
+    overflow-x: scroll;
+    width: 1500px;
+    margin: 100px;
+    position: relative;
+}
+.carrusell::-webkit-scrollbar{
+    background-color: #0004ff9a;
+    height: 10px;
+    border-radius: 10px;
+}
+.carrusell::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar{
+    background-color: #0004ff9a;
+    width: 10px;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 10px;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+}
+.rede{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    background-color: #000;
+}
+.banner1{
+    width: 450px;
+    height: 70px;
+}
+.car{
+    animation-name: carrusel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0px 10px 20px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 40px;
+}
+@keyframes carrusel{
+    0%{
+        box-shadow: 0px 10px 20px 5px rgb(0, 60, 255)
+    }
+    25%{
+        box-shadow: 0px 10px 20px 20px rgb(255, 0, 221)
+    }
+    50%{
+        box-shadow: 0px 10px 20px 5px rgb(0, 255, 76)
+    }
+    75%{
+        box-shadow: 0px 10px 20px 20px rgb(255, 251, 0)
+    }
+    100%{
+        box-shadow: 0px 10px 20px 5px rgb(253, 1, 1);
+    }
+}
+.span1,.span2,.span3,.span4,.span5
+,.span6,.span7,.span8,.span9,.span10,.span11
+,.span12{
+    animation-name: carrue;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes carrue{
+    0%{
+        color: rgb(0, 60, 255)
+    }
+    25%{
+        color: rgb(255, 0, 221)
+    }
+    50%{
+        color:rgb(0, 255, 76)
+    }
+    75%{
+        color: rgb(255, 251, 0)
+    }
+    100%{
+        color: rgb(253, 1, 1);
+    }
+}
